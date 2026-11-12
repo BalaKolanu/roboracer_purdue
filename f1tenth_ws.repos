@@ -19,6 +19,11 @@ repositories:
     url: git@github.com:BalaKolanu/f1tenth_controllers.git
     version: main
 
+  src/raceline_generation:
+    type: git
+    url: git@github.com:BalaKolanu/raceline_generation.git
+    version: main
+
   src/transport_drivers:
     type: git
     url: git@github.com:ros-drivers/transport_drivers.git
