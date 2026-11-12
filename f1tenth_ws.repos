@@ -1,0 +1,30 @@
+repositories:
+  src/f1tenth_system:
+    type: git
+    url: git@github.com:BalaKolanu/f1tenth_system.git
+    version: main
+
+  src/f1tenth_bringup:
+    type: git
+    url: git@github.com:BalaKolanu/f1tenth_bringup.git
+    version: main
+
+  src/particle_filter:
+    type: git
+    url: git@github.com:BalaKolanu/particle_filter.git
+    version: main
+
+  src/f1tenth_controllers:
+    type: git
+    url: git@github.com:BalaKolanu/f1tenth_controllers.git
+    version: main
+
+  src/transport_drivers:
+    type: git
+    url: git@github.com:ros-drivers/transport_drivers.git
+    version: main
+
+  src/udp_msgs:
+    type: git
+    url: git@github.com:flynneva/udp_msgs.git
+    version: main
