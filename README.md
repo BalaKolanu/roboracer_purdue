@@ -10,14 +10,14 @@ root-repository submodules.
 
 ## Repository index
 
-- f1tenth_system — vehicle hardware bringup, VESC, LiDAR, joystick, odometry, and command multiplexing.
-- f1tenth_bringup — platform-specific launch files, mapping, raceline orchestration, and stack-level configuration.
-- f1tenth_controllers — MPC and pure-pursuit controllers.
-- particle_filter — LiDAR-based Monte Carlo localization.
-- raceline_generation — lane-bound generation and raceline optimization.
-- transport_drivers — reusable serial, UDP, and asynchronous transport drivers.
-- udp_msgs — ROS 2 UDP message interfaces.
-- f1tenth_system nested repositories — VESC, teleoperation tools, and Ackermann multiplexer components.
+- [f1tenth_system](https://github.com/BalaKolanu/f1tenth_system) - vehicle hardware bringup, VESC, LiDAR, joystick, odometry, and command multiplexing.
+- [f1tenth_bringup](https://github.com/BalaKolanu/f1tenth_bringup) - platform-specific launch files, mapping, raceline orchestration, and stack-level configuration.
+- [f1tenth_controllers](https://github.com/BalaKolanu/f1tenth_controllers) - MPC and pure-pursuit controllers.
+- [particle_filter](https://github.com/BalaKolanu/particle_filter) - LiDAR-based Monte Carlo localization.
+- [raceline_generation](https://github.com/BalaKolanu/raceline_generation) - lane-bound generation and raceline optimization.
+- [transport_drivers](https://github.com/ros-drivers/transport_drivers) - reusable serial, UDP, and asynchronous transport drivers.
+- [udp_msgs](https://github.com/flynneva/udp_msgs) - ROS 2 UDP message interfaces.
+- Nested `f1tenth_system` repositories: [vesc](https://github.com/BalaKolanu/vesc), [teleop_tools](https://github.com/f1tenth/teleop_tools), and [ackermann_mux](https://github.com/f1tenth/ackermann_mux).
 
 ## Configuration ownership policy
 
