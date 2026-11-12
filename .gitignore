@@ -1,0 +1,14 @@
+# ROS 2 workspace-generated artifacts
+/build/
+/install/
+/log/
+/bags/
+
+# Python-generated files
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local editor/system files
+.vscode/*
+!.vscode/settings.json
